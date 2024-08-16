@@ -1,11 +1,8 @@
 provider "aws" {
   region = "us-east-1" # Choose the appropriate AWS region
 }
-
-# Create ECR repositories
-resource "aws_ecr_repository" "app_repository" {
-  name = "my-app-repo"
-}
+# what is it
+# Create  ECR repositories
 
 resource "aws_ecr_repository" "mysql_repository" {
   name = "my-mysql-repo"
