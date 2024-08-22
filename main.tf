@@ -43,7 +43,7 @@ resource "aws_instance" "web_server" {
   subnet_id     = data.aws_subnet.default.id
 
   tags = {
-    Name = "MyAppInstance"
+    Name = "MyAppInstance-Example"
   }
 
   # Security group configuration
